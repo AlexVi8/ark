@@ -4,7 +4,7 @@
 failure-output = "immediate-final"
 
 # Do not cancel the test run on the first failure.
-fail-fast = false
+fail-fast = true
 
 # Mark tests that take longer than 60s as slow.
 # Terminate after 60s as a stop-gap measure to terminate on deadlock.
